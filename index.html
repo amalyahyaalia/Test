@@ -134,7 +134,7 @@
 
   <main class="card">
     <!-- Gandalf & Mowgli -->
-    <svg class="art" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+    <svg class="art" viewBox="0 0 600 620" xmlns="http://www.w3.org/2000/svg">
 
   <defs>
     <!-- Soft shadow -->
@@ -150,48 +150,61 @@
     </radialGradient>
   </defs>
 
+  <!-- Ground shadow -->
+  <ellipse cx="300" cy="560" rx="130" ry="20" fill="#000" opacity="0.08"/>
+
   <!-- Cat Tree -->
   <g filter="url(#shadow)">
-    <rect x="220" y="380" width="160" height="150" rx="18" fill="#e5d8c7"/>
-    <rect x="280" y="260" width="40" height="120" rx="12" fill="#d8c7b3"/>
-    <rect x="250" y="230" width="120" height="28" rx="14" fill="#e5d8c7"/>
-    <rect x="250" y="150" width="120" height="28" rx="14" fill="#e5d8c7"/>
+    <!-- Base -->
+    <rect x="220" y="410" width="160" height="140" rx="18" fill="#e5d8c7"/>
+
+    <!-- Main vertical post -->
+    <rect x="280" y="300" width="40" height="110" rx="12" fill="#d8c7b3"/>
+
+    <!-- Middle platform -->
+    <rect x="250" y="270" width="120" height="28" rx="14" fill="#e5d8c7"/>
+
+    <!-- Upper branch support -->
+    <rect x="295" y="200" width="10" height="70" rx="5" fill="#d8c7b3"/>
+
+    <!-- Top platform -->
+    <rect x="250" y="170" width="120" height="28" rx="14" fill="#e5d8c7"/>
   </g>
 
-  <!-- Hanging Mouse Toy -->
-  <line x1="300" y1="260" x2="300" y2="305" stroke="#aaa" stroke-width="2"/>
-  <ellipse cx="300" cy="320" rx="12" ry="8" fill="#ddd"/>
-  <circle cx="308" cy="318" r="2" fill="#888"/>
-  <line x1="312" y1="320" x2="322" y2="315" stroke="#aaa" stroke-width="2"/>
+  <!-- Hanging Mouse (now attached to upper branch) -->
+  <line x1="300" y1="200" x2="300" y2="240" stroke="#aaa" stroke-width="2"/>
+  <ellipse cx="300" cy="255" rx="12" ry="8" fill="#ddd"/>
+  <circle cx="308" cy="253" r="2" fill="#888"/>
+  <line x1="312" y1="255" x2="322" y2="250" stroke="#aaa" stroke-width="2"/>
 
   <!-- Grey Scottish Fold -->
   <g filter="url(#shadow)">
     <!-- Body -->
-    <ellipse cx="300" cy="310" rx="55" ry="65" fill="#9ea4a8"/>
+    <ellipse cx="300" cy="330" rx="55" ry="65" fill="#9ea4a8"/>
     <!-- Head -->
-    <circle cx="300" cy="260" r="48" fill="#9ea4a8"/>
+    <circle cx="300" cy="280" r="48" fill="#9ea4a8"/>
 
     <!-- Folded ears -->
-    <ellipse cx="270" cy="230" rx="14" ry="8" fill="#8e9498"/>
-    <ellipse cx="330" cy="230" rx="14" ry="8" fill="#8e9498"/>
+    <ellipse cx="270" cy="250" rx="14" ry="8" fill="#8e9498"/>
+    <ellipse cx="330" cy="250" rx="14" ry="8" fill="#8e9498"/>
 
     <!-- Stripe glasses -->
-    <path d="M260 260 Q300 245 340 260"
+    <path d="M260 280 Q300 265 340 280"
           stroke="#7a8084"
           stroke-width="18"
           fill="none"
           stroke-linecap="round"/>
 
     <!-- Eyes -->
-    <circle cx="280" cy="260" r="14" fill="url(#eyeGlow)"/>
-    <circle cx="320" cy="260" r="14" fill="url(#eyeGlow)"/>
-    <circle cx="280" cy="260" r="6" fill="#000"/>
-    <circle cx="320" cy="260" r="6" fill="#000"/>
-    <circle cx="285" cy="255" r="4" fill="#fff"/>
-    <circle cx="325" cy="255" r="4" fill="#fff"/>
+    <circle cx="280" cy="280" r="14" fill="url(#eyeGlow)"/>
+    <circle cx="320" cy="280" r="14" fill="url(#eyeGlow)"/>
+    <circle cx="280" cy="280" r="6" fill="#000"/>
+    <circle cx="320" cy="280" r="6" fill="#000"/>
+    <circle cx="285" cy="275" r="4" fill="#fff"/>
+    <circle cx="325" cy="275" r="4" fill="#fff"/>
 
     <!-- Mouth -->
-    <path d="M285 285 Q300 295 315 285"
+    <path d="M285 305 Q300 315 315 305"
           stroke="#6d6d6d"
           stroke-width="3"
           fill="none"/>
@@ -200,21 +213,21 @@
   <!-- Black Scottish Fold -->
   <g filter="url(#shadow)">
     <!-- Body -->
-    <ellipse cx="300" cy="130" rx="60" ry="45" fill="#121212"/>
+    <ellipse cx="300" cy="150" rx="60" ry="45" fill="#121212"/>
     <!-- Head -->
-    <circle cx="265" cy="110" r="42" fill="#121212"/>
+    <circle cx="265" cy="125" r="42" fill="#121212"/>
 
     <!-- Folded ears -->
-    <ellipse cx="240" cy="80" rx="14" ry="8" fill="#0a0a0a"/>
-    <ellipse cx="280" cy="80" rx="14" ry="8" fill="#0a0a0a"/>
+    <ellipse cx="240" cy="95" rx="14" ry="8" fill="#0a0a0a"/>
+    <ellipse cx="280" cy="95" rx="14" ry="8" fill="#0a0a0a"/>
 
-    <!-- Big Pixar eyes -->
-    <circle cx="250" cy="110" r="16" fill="url(#eyeGlow)"/>
-    <circle cx="280" cy="110" r="16" fill="url(#eyeGlow)"/>
-    <circle cx="250" cy="110" r="7" fill="#000"/>
-    <circle cx="280" cy="110" r="7" fill="#000"/>
-    <circle cx="255" cy="103" r="5" fill="#fff"/>
-    <circle cx="285" cy="103" r="5" fill="#fff"/>
+    <!-- Pixar eyes -->
+    <circle cx="250" cy="125" r="16" fill="url(#eyeGlow)"/>
+    <circle cx="280" cy="125" r="16" fill="url(#eyeGlow)"/>
+    <circle cx="250" cy="125" r="7" fill="#000"/>
+    <circle cx="280" cy="125" r="7" fill="#000"/>
+    <circle cx="255" cy="118" r="5" fill="#fff"/>
+    <circle cx="285" cy="118" r="5" fill="#fff"/>
   </g>
 
 </svg>
@@ -348,6 +361,7 @@
   </script>
 </body>
 </html>
+
 
 
 
